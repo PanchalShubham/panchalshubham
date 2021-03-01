@@ -10,7 +10,7 @@ function App() {
 	const [isLoadAnimation, setIsLoadAnimation] = useState(true);
 	return (
 		<div className="App">
-			<Router>
+			<Router basename="/panchalshubham">
 				<Switch>
 					<Route exact path="/" render={() => <Homepage isLoadAnimation={isLoadAnimation} setIsLoadAnimation={setIsLoadAnimation} />} />
 					<Route exact path="/education" component={Education} />
