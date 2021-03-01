@@ -1,0 +1,217 @@
+#contact_page{
+    background: #333333;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contact-item-box{
+        border: 8px double  white;
+        margin: 20px 5%;
+        padding: 10px;
+        display: flex;
+        > div{
+            flex: 0.5;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 990px){
+            display: block;
+        }
+
+    }
+    .contact-details{
+        color: #ffffff;
+        text-align: justify;
+        font-size: 20px;
+    }
+    .contact-details span{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .textfield, .textarea{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        color: white;
+        outline: none; 
+        width: 100%;
+        display: block;
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    :hover::placeholder{
+        color: transparent;
+    }
+    
+    .textarea{
+        resize: none;
+    }
+    ::placeholder{
+        color: white;
+    }
+    #contactForm{
+        border-left: 2px solid white;
+    }
+    .send-button{
+        border: none;
+        outline: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        background: #808080;
+        color: white;
+        transition: color 0.5s ease;
+        width: 50%;
+        margin: 10px auto;
+        padding: 5px;
+    }
+    
+    @media screen and (max-width: 990px){
+        .contact-details span{
+            font-size: 40px;
+        }
+        #contactForm{
+            border: none;
+        }
+    }
+    .hvr-sweep-to-left {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      position: relative;
+      -webkit-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+    }
+    .hvr-sweep-to-left:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #bfbfbf;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 100% 50%;
+      transform-origin: 100% 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    .hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
+      color: white;
+    }
+    .hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Wrapper */
+    .icon-button {
+        background-color: white;
+        border-radius: 2.5rem;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1.0rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        margin: 0 5px;
+        position: relative;
+        text-align: center;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+        width: 2.5rem;
+    }
+    
+    /* Circle */
+    .icon-button span {
+        border-radius: 0;
+        display: block;
+        height: 0;
+        left: 50%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -webkit-transition: all 0.3s;
+           -moz-transition: all 0.3s;
+             -o-transition: all 0.3s;
+                transition: all 0.3s;
+        width: 0;
+    }
+    .icon-button:hover span {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 2.5rem;
+        margin: -1.22rem;
+    }
+    .twitter span {
+        background-color: #808080;
+        /* background-color: #4099ff; */
+    }
+    .facebook span {
+        background-color: #808080;
+        /* background-color: #3B5998; */
+    }
+    .github span {
+        background-color: #808080;
+        /* background-color: #d6249f; */
+    }
+    
+    
+    /* Icons */
+    .icon-button i {
+        background: none;
+        color: white;
+        height: 2.5rem;
+        left: 0;
+        line-height: 2.5rem;
+        position: absolute;
+        top: 0;
+        -webkit-transition: all 0.3s;
+           -moz-transition: all 0.3s;
+             -o-transition: all 0.3s;
+                transition: all 0.3s;
+        width: 2.5rem;
+        z-index: 10;
+    }
+    .icon-button .icon-twitter {
+        color: black;
+    }
+    .icon-button .icon-facebook {
+        color: black;
+    }
+    .icon-button .icon-github {
+        color: black;
+    }
+    
+    .icon-button:hover .icon-twitter,
+    .icon-button:hover .icon-facebook,
+    .icon-button:hover .icon-github {
+        color: white;
+    }
+}
