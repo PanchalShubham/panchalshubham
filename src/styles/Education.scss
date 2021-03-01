@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.education{
+    min-height: 100vh;
+    background: rgb(233, 161, 185);
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .education_item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button{
+            background: transparent;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            font-size: 30px;
+            color: white;
+        }
+        .info{
+            color: white;
+            text-align: center;
+            flex: 1;
+            h1{
+                font-family: 'Monoton', cursive;
+                font-size: 70px;
+                word-spacing: 20px;
+            }
+            .year{
+                font-size: 30px;
+            }
+            .dest{
+                font-size: 40px;
+                line-height: 60px;
+                font-family: 'Press Start 2P', cursive;
+                color: #808080;
+            }
+
+            @media screen and (max-width: 990px) {
+                h1{font-size: 50px;}
+                .dest{font-size: 30px;}
+            }
+            @media screen and (max-width: 550px) {
+                h1{font-size: 40px;}
+                .dest{font-size: 20px; line-height: 30px;}
+            }
+        }
+    }
+}

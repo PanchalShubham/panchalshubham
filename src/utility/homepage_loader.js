@@ -4,6 +4,7 @@ function process() {
     let s = Snap('#svgout');
     let sMaxX = 1500, sMaxY = 600;
     let viewBoxList = [0, 0, sMaxX, sMaxY];
+    if (!s) return;
     s.attr({ viewBox: viewBoxList });
     let gLines = s.g();
     let gText = s.g();

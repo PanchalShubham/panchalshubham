@@ -8,6 +8,27 @@ import ReactJs from '../assets/stack/stack-reactjs.png';
 
 const projectList = [
     {
+        time: `Feb'21`, 
+        img: Js, 
+        link: `https://github.com/panchalshubham/leetcode-helper`, 
+        title: `Leetcode Helper`, 
+        desc: `An extension to add filter and timer support to https://leetcode.com`
+    },
+    {
+        time: `Feb'21`, 
+        img: ReactJs, 
+        link: `https://panchalshubham.github.io/room-deck`, 
+        title: `Room Deck`, 
+        desc: `Instant group chatting application! Chat with your friends, family and community on-demand!`
+    },
+    {
+        time: `Jan'21`, 
+        img: ReactJs, 
+        link: `https://techokids.com`, 
+        title: `ReactJs Developer Intern`, 
+        desc: `Member of full-stack development team for techokids.com, developed website using ReactJs`
+    },
+    {
         time: `Dec'20`, 
         img: Js, 
         link: `https://github.com/PanchalShubham/duplicate-image-by-content-gdrive`, 

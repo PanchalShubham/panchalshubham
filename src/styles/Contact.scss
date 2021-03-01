@@ -4,7 +4,44 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+
+    .toast{
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 2px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        > button{
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            margin-left: 20px;
+            outline-width: 0px;
+        }
+    }
+    .success{
+        background-color: #d1e7dd;
+        border-color: #badbcc;
+        color: #0f5132;
+        > button{
+            color: #0f5132;
+        }
+    }
+    .error{
+        background-color: #f8d7da;
+        border-color: #f5c2c7;
+        color: #842029;
+        > button{
+            color: #842029;
+        }
+    }
 
     .contact-item-box{
         border: 8px double  white;
@@ -168,22 +205,8 @@
         height: 2.5rem;
         border-radius: 2.5rem;
         margin: -1.22rem;
+        background: #808080;
     }
-    .twitter span {
-        background-color: #808080;
-        /* background-color: #4099ff; */
-    }
-    .facebook span {
-        background-color: #808080;
-        /* background-color: #3B5998; */
-    }
-    .github span {
-        background-color: #808080;
-        /* background-color: #d6249f; */
-    }
-    
-    
-    /* Icons */
     .icon-button i {
         background: none;
         color: white;
@@ -199,19 +222,12 @@
         width: 2.5rem;
         z-index: 10;
     }
-    .icon-button .icon-twitter {
-        color: black;
-    }
-    .icon-button .icon-facebook {
-        color: black;
-    }
-    .icon-button .icon-github {
-        color: black;
-    }
-    
-    .icon-button:hover .icon-twitter,
-    .icon-button:hover .icon-facebook,
-    .icon-button:hover .icon-github {
-        color: white;
-    }
+    .icon-button {
+        .icon{
+            color: black;
+        }
+        .icon:hover{
+            color: white;
+        }
+    } 
 }
