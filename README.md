@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m Shubham Panchal, 3rd year Computer Science student at IIT Hyderabad.  
+- 🔭 I’m Shubham Panchal, 2022 batch Computer Science, IIT Hyderabad.  
 - 🌱 I have working experience in C/C++, Java, Python, and MERN-stack with MySQL and MonogoDB.    
 - 👯 I love to teach and help people and I love to code!
 - 💬 Checkout my online programming academy at https://panchalprogrammingacademy.github.io/panchalprogrammingacademy  
