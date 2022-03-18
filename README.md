@@ -1,10 +1,7 @@
-### Hi there 👋
+👋 Welcome buddy! No it's not a dream you are really looking at a crazy yet another coolest guy!  
+Well you were not supposed to be here unless for a reason but since you are let me introduce myself.  
+I'm Shubham Panchal! And it's probably outlandish and fantastic that I'm a huge fan of myself!  
+And... that's all you should know about me!
+Great to see you! Have a great time ahead! 
 
-- 🔭 I’m Shubham Panchal, 2018 batch Computer Science, IIT Hyderabad.  
-- 🌱 I have working experience with C/C++, Java, Python, and MERN-stack with MySQL and MonogoDB.    
-- 👯 I love to teach and help people and I love to code!
-- 💬 Checkout my online programming academy at https://panchalprogrammingacademy.github.io/panchalprogrammingacademy  
-- 📫 Address: 85-ward-02 Aminagar Sarai, Baghpat, UP - 250606
-- 📱 Mobile: +91 9773669462  
-- 📧 Email: shubhampanchal9773@gmail.com  
-- ⚡ Website: https://panchalshubham.github.io/panchalshubham/
+![profile](https://user-images.githubusercontent.com/49385589/158953354-cb1168ce-24b0-4e22-87d7-3464e1e359f1.jpeg)
